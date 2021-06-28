@@ -1,0 +1,17 @@
+{
+  "name": "stage-commits-action",
+  "version": "1.0.0",
+  "description": "GitHub action used to stage commits for the githubtraining team exercises",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/github": "^5.0.0",
+    "fs-extra": "^10.0.0"
+  }
+}
