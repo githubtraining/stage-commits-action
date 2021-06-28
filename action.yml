@@ -1,10 +1,6 @@
 name: Stage commits action
 description: An action maintained by githubtraining that helps us stage commits for hands on exercises
 author: githubtraining
-inputs:
-  token:
-    description: api token
-    required: true
 
 runs:
   using: node12
