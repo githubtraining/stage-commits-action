@@ -39,7 +39,7 @@ async function addFile(filename, contents) {
 }
 
 async function createCommit(filename, commitMsg) {
-  const contents = fs.readFileSync(`file-templates/${filename}`);
+  const contents = fs.readFileSync(`../../file-templates/${filename}`);
   await addFile(`${workspace}/${filename}`, contents);
   await addCommit(commitMsg);
 }
