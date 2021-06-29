@@ -5442,7 +5442,7 @@ async function run() {
     await createCommit("index.html", "ugh, html is my least favorite");
     await createCommit(
       ".env",
-      "I know I shoudln't commit secrets, but here we are 🤷"
+      "I know I shouldn't commit secrets, but here we are 🤷"
     );
     await createCommit("style.css", "Add style.css");
     await createCommit("main.js", "Need to connect to HTML later");
